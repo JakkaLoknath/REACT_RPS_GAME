@@ -97,9 +97,9 @@ export default function RPS() {
     const buttonStyle = 'p-4 w-15 border cursor-pointer duration-300 rounded-full bg-[rgba(100,100,100,0.95)] hover:bg-[rgba(100,100,100,0.80)] hover:border-white';
 
     return (
-        <div className='h-screen flex items-center justify-center border-3 border-white rounded-2xl'>
+        <div className='h-screen flex items-center justify-center rounded-2xl'>
             <div className='space-y-4'>
-                <div className='border'>
+                <div>
                     <p className='text-white text-center text-lg'>ROCK PAPER SCISSORS</p>
                     <p className='text-white text-center text-sm'>(React js + Tailwind CSS)</p>
                 </div>
