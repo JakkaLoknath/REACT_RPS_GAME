@@ -104,7 +104,7 @@ export default function RPS() {
                     <p className='text-white text-center text-sm'>(React js + Tailwind CSS)</p>
                 </div>
 
-                <div className='flex gap-3 justify-center border'>
+                <div className='flex gap-3 justify-center'>
                     {game.map((move, index) => (
                         <div key={index}>
                             <button
